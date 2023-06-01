@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Testing" configfailurepolicy="continue">
+    <test verbose="2" preserve-order="true" name="/Users/saifnoor/Documents/GitHub/AppiumFrame">
+        <classes>
+            <class name="test_cases.LoginTest">
+                <methods>
+                    <include name="validateLogInWithPasswordTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
